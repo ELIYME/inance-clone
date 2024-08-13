@@ -1,0 +1,125 @@
+*{
+    padding: 0%;
+    margin: 0%;   
+}
+ /* SERVICE{} */
+
+ .service{
+    display: flex;
+    background-color: skyblue;
+}
+.service1{
+  padding-left: 50px;
+  padding: 66px;
+}
+.service1 img{
+    width: 420px;
+    padding-left: 80px;
+    /* padding: 80px; */
+}
+.service2{
+    padding-top: 200px;
+    padding-right: 100px;
+}
+.service2 p{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.service2 h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:blue;
+}
+.service2 button{
+    background-color: rgb(255, 92, 32);
+    color: white;
+    font-size: 9px;
+    width: 87px;
+    padding: 8px;
+    border: white;
+}
+.allservices{
+    display: flex;
+    flex-direction: column;
+    /* justify-items: center; */
+    align-items: center;
+}
+ .allservices h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     padding-top: 60px;
+     padding-bottom: 40px;
+ }
+.ourservice{
+    display: flex;
+    gap: 20px;
+    width: 1000px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.our img{
+    width: 40px;
+}
+.our {
+    border: rgb(230, 228, 228),solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.our h4{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.what{
+    display: flex;
+    gap: 20px;
+}
+.say{
+    border: rgb(230, 228, 228),solid;
+    width: 400px;
+    padding: 10px;
+}
+.say img{
+    border-radius: 100px;
+    width: 80px;
+}
+.me{
+    display: flex;
+    align-items: center;
+}
+.me img{
+    padding: 10px;
+}
+.star img{
+    width: 14px;
+    padding: 0;
+}
+.mark{
+    padding-left: 200px;
+    font-size: 40px;
+}
+.button{
+    margin-top: 30px;
+    background-color: rgb(54, 54, 249);
+    color: white;
+    font-size: 8px;
+    padding: 6px;
+    width: 100px;
+    border: white;
+}
+.twobutton{
+    gap: 20px;
+    display: flex;
+    margin-bottom: 40px;
+
+}
+.ones{
+    justify-content: space-around;
+    margin-top: 20px;
+    background-color: rgb(54, 54, 249);
+    color: white;
+    font-size: 18px;
+    padding: 5px;
+    width: 30px;
+    border: white
+}
